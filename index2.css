@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container_body{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#main_container{
+    display: flex;
+    height: 100%;
+}
+
+#row_1{
+    flex-shrink: 1;
+    background-color: blue;
+}
+
+#row_2{
+    flex-grow: 11;
+    background-color: rgb(80, 80, 129);
+}
